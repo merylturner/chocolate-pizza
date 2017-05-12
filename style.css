@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*      HEADER SECTION         */
+header {
+    margin: 10px 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    /*float: left;*/
+    order: -1;
+    display:inline-block;
+
+}
+
+header h3 {
+    order: 2;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    /*margin-left: 20px;*/
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header p {
+    font-family:sans-serif;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+header .navbar .medialinks {
+    order: 3;
+    display: inline-block;
+}
+header .navbar .contactlinks {
+    order: 4;
+    display: inline-block;
+}
+header .navbar li {
+    display: inline-block;
+}
+
