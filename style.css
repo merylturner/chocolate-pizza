@@ -81,3 +81,46 @@ header .navbar {
 }
 
 /*                               Main Styles */
+
+main h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+main p {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: lightgray;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.printSection {
+    display: inline;
+    width: 600px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+.printSection #p1 {
+    /*order: -1;
+    /*flex-grow: 20;*/
+    /*flex-basis: 0;*/
+
+}
+.printSection .printicon {
+    /*order: 2;
+    /*flex-grow: 1;*/
+    /*flex-basis: 0;*/
+
+}
+.printSection #p2 {
+    /*order: 3;
+    /*flex-grow: 2;*/
+    /*justify-content: flex-end;*/
+    /*flex-basis: 0;*/*/
+
+}
