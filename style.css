@@ -98,7 +98,7 @@ main p {
 }
 
 article p {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: Cambria, Cochin, Georgia, serif;
     color: black;
     text-transform: none;
     text-indent: 2rem;
@@ -108,38 +108,55 @@ article p {
 }
 
 .printSection {
-    display: inline;
-    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     margin-bottom: 30px;
     box-sizing: border-box;
+}
+
+.printSection img {
+    max-height: 10px;
+    order: 2;
+    flex-basis: 0;
+    align-items: center;
+    width: 100%;
+}
+.printSection #p1 {
+    align-items: center;
+    order: -1;
+    flex-grow: 3;
+}
+.printSection #p2 {
+    align-items: center;
+    order: 3;
+    flex-grow: 1;
+    align-content: flex-end;
+
 }
 
 h5 {
     font-weight: bold;
 }
 
-
+.chocopizza {
+    margin: 0 auto;
+    width: 100%
 }
-.printSection #p2 {
-    /*order: 3;
-    /*flex-grow: 2;*/
-    /*justify-content: flex-end;*/
-    /*flex-basis: 0;*/
 
-}
 
 /*                               Ingredients Form */
 
 
 .ingredientsform {
-    position: absolute;
-    z-index: 100;
     font-family: 'Patrick Hand', cursive;
     color: brown;
     font-size: 24px;
     background-image: url("images/list-bg.png");
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -148,6 +165,10 @@ ul {
 li {
     list-style-type: none;
 }
+
+/*                               Ingredients Form */
+
+
 
 
 /*           FOOTER SECTION   */
