@@ -118,5 +118,44 @@ h5 {
     font-weight: bold;
 }
 
-/*                               Footer Styles */
+
+}
+.printSection #p2 {
+    /*order: 3;
+    /*flex-grow: 2;*/
+    /*justify-content: flex-end;*/
+    /*flex-basis: 0;*/
+
+}
+
+/*                               Ingredients Form */
+
+
+.ingredientsform {
+    position: absolute;
+    z-index: 100;
+    font-family: 'Patrick Hand', cursive;
+    color: brown;
+    font-size: 24px;
+    background-image: url("images/list-bg.png");
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    display: inline-block
+}
+li {
+    list-style-type: none;
+}
+
+
+/*           FOOTER SECTION   */
+
+footer {
+    position: absolute;
+    /*bottom: 10px;*/
+
+    text-align: center;
+
 
