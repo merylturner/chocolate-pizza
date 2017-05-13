@@ -112,5 +112,11 @@ article p {
     width: 600px;
     margin-bottom: 30px;
     box-sizing: border-box;
-
 }
+
+h5 {
+    font-weight: bold;
+}
+
+/*                               Footer Styles */
+
